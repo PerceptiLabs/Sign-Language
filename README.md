@@ -6,13 +6,13 @@ Sign language has been used for centuries to help the hearing impaired to commun
 ​
 This repo contains a machine learning model that you can load in PerceptiLabs that learns to identify pictures of hand signs representing the digits 0 to 9.
 ​
-[![PerceptiLabs](signlang.jpg)]
+[![PerceptiLabs](signlang.png)]
 ​
 The model follows the [LeNet](https://en.wikipedia.org/wiki/LeNet) approach and consists of two Convolution (ConV) layers followed by a Dense layer. While both of the ConV layers use [Relu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) activation functions, the Dense layer uses a [Softmax](https://en.wikipedia.org/wiki/Softmax_function) function and is passed through to a Classification training component. The model also makes use of pooling which is configured via the ConV components. 
 ​
 The architecture of this model is illustrated here:
 ​
-[![Model Architecture](architecture.jpg)]
+[![Model Architecture](architecture.png)]
 ​
 # How A ConV Layer Works 
 ​
