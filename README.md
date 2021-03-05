@@ -12,7 +12,7 @@ The model follows the [LeNet](https://en.wikipedia.org/wiki/LeNet) approach and 
 ​
 The architecture of this model is illustrated here:
 ​
-[![Model Architecture](architecture_new.png)]
+![Model Architecture](architecture_new.png)
 ​
 # How A ConV Layer Works 
 ​
