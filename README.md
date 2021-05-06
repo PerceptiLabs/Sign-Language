@@ -5,7 +5,7 @@
 Sign language has been used for centuries to help the hearing impaired to communicate. It's composed of various hand gestures and even body movements to represent the information to convey.<br />
 ​<br />
 This repo contains a machine learning model that you can load in PerceptiLabs that learns to identify pictures of hand signs representing the digits 0 to 9.
-​<br />
+​<br /><br />
 **Note:** This model is not compatible with PerceptiLabs 0.12 as the UI and components have changed.
 
 ![PerceptiLabs](signlang.png)
