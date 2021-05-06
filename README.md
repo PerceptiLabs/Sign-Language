@@ -2,10 +2,10 @@
 ​
 # PerceptiLabs Community Model
 ​
-Sign language has been used for centuries to help the hearing impaired to communicate. It's composed of various hand gestures and even body movements to represent the information to convey.
-​
+Sign language has been used for centuries to help the hearing impaired to communicate. It's composed of various hand gestures and even body movements to represent the information to convey.<br />
+​<br />
 This repo contains a machine learning model that you can load in PerceptiLabs that learns to identify pictures of hand signs representing the digits 0 to 9.
-​
+​<br />
 **Note:** This model is not compatible with PerceptiLabs 0.12 as the UI and components have changed.
 
 ![PerceptiLabs](signlang.png)
@@ -18,8 +18,8 @@ The architecture of this model is illustrated here:
 ​
 # How A ConV Layer Works 
 ​
-A ConV neural network is a deep learning algorithm that has the ability to learn from an input image through a number of filters and an activation function for that layer. In other words, when a user loads an image, the ConV layers try to learn from different features in that image. These features may be vertical edges, horizontal edges, different colors in the image, lines, etc.
-​
+A ConV neural network is a deep learning algorithm that has the ability to learn from an input image through a number of filters and an activation function for that layer. In other words, when a user loads an image, the ConV layers try to learn from different features in that image. These features may be vertical edges, horizontal edges, different colors in the image, lines, etc.<br />
+​<br />
 After convolution is performed, the image is subsequently fed to a Pooling layer. The goal of pooling is to downsample the feature maps (i.e., the outputs) from the previous step and to summarize the results before feeding them to the next layer. There are two types of pooling methods: average and max pooling. For this tutorial, we will use max pooling in which a feature map is divided into a grid of values. The feature map is then partitioned into regions of values from which the maximum value is chosen from each. 
 ​
 # Structure
