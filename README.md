@@ -37,7 +37,7 @@ Follow the steps below to load the sample model in PerceptiLabs:
 ​
 1. Choose one of the following options to obtain this repo:
 ​
-  * Clone or download the sample model from GitHub. Then on the **ModelHub** screen in Perceptilabs, import the sample model. When prompted for the model's folder, navigate to and select the location of the **model.json** file.
+  * Clone or download the sample model from GitHub. Note that This model is not compatible with PerceptiLabs 0.12 as the UI and components have changed. Then on the **ModelHub** screen in Perceptilabs, import the sample model. When prompted for the model's folder, navigate to and select the location of the **model.json** file.
   * Clone the repo directly from within PerceptiLabs, by selecting PerceptiLabs' **File** > **Import Model** menu, and then populating the **GitHub** tab on the popup with the URL of this repo.
 ​
 2. Unzip **data.zip**. This will create a subdirectory named **data** containing the repo's two .npy data files (**X.npy** and **Y.npy**).
