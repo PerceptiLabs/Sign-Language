@@ -8,7 +8,7 @@ This repo contains a machine learning model that you can load in PerceptiLabs th
 ​
 **Note:** This model is not compatible with PerceptiLabs 0.12 as the UI and components have changed.
 
-![PerceptiLabs][signlang.png]
+![PerceptiLabs](signlang.png)
 ​
 The model follows the [LeNet](https://en.wikipedia.org/wiki/LeNet) approach and consists of two Convolution (ConV) layers followed by a Dense layer. While both of the ConV layers use [Relu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) activation functions, the Dense layer uses a [Softmax](https://en.wikipedia.org/wiki/Softmax_function) function and is passed through to a Classification training component. The model also makes use of pooling which is configured via the ConV components. 
 ​
